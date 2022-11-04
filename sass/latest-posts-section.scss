@@ -170,7 +170,7 @@
  @media (min-width:768px) and (max-width:1280px) {
     .latest-posts-bar {
         max-width: 100%;
-        width: 800px;
+        width: 768px;
         padding-left: 10px;
      
 }
@@ -181,24 +181,26 @@
     padding: 0 10px;
 &__left-card {
     max-width:  100%;
-    width: 800px;
+    width: 768px;
     margin-right: 0px;
+    margin: 0 auto;
 
     display: flex;
 }
 &__center-card {
     max-width:  100%;
-    width: 800px;
+    width: 768px;
     margin-right: 0px;
+    margin: 30px auto 30px;
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 30px;
+   ;
 }
 &__right-card {
     max-width:  100%;
-    width: 800px;
+    width: 768px;
     display: flex;
-    margin-top: 30px;
+   margin: 0 auto;
 }
 
 &__subtext {

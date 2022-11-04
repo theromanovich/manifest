@@ -96,9 +96,11 @@
     .description-section {
 
         &__wrapper {
+            width: 748px;
             display: block;
-            margin-top: 50px;
+          
             padding: 0 10px;
+            margin: 50px auto;
         }
         &__wrapper-left {
             font-family: $primaryFont;
