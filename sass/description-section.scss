@@ -1,0 +1,141 @@
+@import "variables";
+
+
+.description-section {
+
+    &__wrapper {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    &__wrapper-left {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #000000;
+        min-width: 470px;
+        
+    }
+    &__wrapper-right {
+        font-family: $secondaryFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        min-width: 470px;
+        letter-spacing: 0.05em;
+        color: #565656; 
+        margin-bottom: 50px;
+}
+}
+.description {
+
+    &__down-span {
+        margin-top: 20px;
+    }
+}
+@media (max-width:767px) {
+
+.description-section {
+
+    &__wrapper {
+        display: flex;
+        margin-top: 50px;
+        margin: 50px auto 0px;
+        max-width: 100%;
+        width: 370px;
+        flex-direction: column;
+    }
+    &__wrapper-left {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #000000;
+        min-width: 150px;
+        max-width: 100%;
+        width: 300px;
+        
+    }
+    &__wrapper-right {
+        font-family: $secondaryFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        min-width: 200px;
+        letter-spacing: 0.05em;
+        color: #565656; 
+        margin-bottom: 50px;
+        max-width: 100%;
+        width: 370px;
+}
+}
+.description {
+    &__upper-span {
+        max-width: 100%;
+        width: 370px;
+        margin-top: 30px;
+        font-size: 22px;
+    }
+    &__down-span {
+        margin-top: 20px;
+        max-width: 100%;
+        width: 370px;
+        font-size: 22px;
+    }
+}
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+    .description-section {
+
+        &__wrapper {
+            display: block;
+            margin-top: 50px;
+            padding: 0 10px;
+        }
+        &__wrapper-left {
+            font-family: $primaryFont;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 166%;
+            letter-spacing: 0.1em;
+            color: #000000;
+            max-width: 400px;
+            
+        }
+        &__wrapper-right {
+            font-family: $secondaryFont;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 32px;
+            max-width: 100%;
+            letter-spacing: 0.05em;
+            color: #565656; 
+            margin-bottom: 50px;
+            width: 800px;
+            min-width: 300px;
+            text-align: end;
+    }
+    }
+    .description {
+    
+        &__down-span {
+            margin-top: 20px;
+            font-size: 20px;
+            max-width: 100%;
+        }
+        &__upper-span {
+            max-width: 100%;
+            font-size: 20px;
+        }
+    }
+}

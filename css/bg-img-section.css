@@ -1,0 +1,21 @@
+.bg-section-wrapper__image {
+  display: block;
+  width: 100%;
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg-section-wrapper__span {
+  display: block;
+  position: absolute;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  top: 0px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-top: 150px;
+  margin-left: 135px;
+  z-index: 20;
+}/*# sourceMappingURL=bg-img-section.css.map */

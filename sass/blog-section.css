@@ -1,0 +1,295 @@
+.blog-section__title-wrapper {
+  font-family: "Lato", sans-serif;
+  width: 1160px;
+  max-width: 100%;
+  display: flex;
+  display: block;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 20px;
+}
+.blog-section__upper-card-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 1180px;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.blog-section__down-card-wrapper {
+  display: flex;
+  max-width: 100%;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.upper-card__text-wrapper {
+  margin-right: 135px;
+  margin-left: 20px;
+}
+.upper-card__span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.upper-card__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.upper-card__date {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.upper-card__down-span__item {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+.upper-card__down-span {
+  margin-top: 20px;
+}
+.upper-card__down-span__item {
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.upper-card__down-span__item__image {
+  width: 100%;
+}
+
+.down-card__image-wrapper {
+  margin-left: 0px;
+}
+
+@media (max-width: 767px) {
+  .blog-section__title-wrapper {
+    font-family: "Lato", sans-serif;
+    width: 390px;
+    max-width: 100%;
+    display: flex;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-left: 0;
+    padding: 0px;
+  }
+  .blog-section__title {
+    width: 160px;
+    max-width: 100%;
+    display: block;
+    margin: 70px auto 50px;
+  }
+  .blog-section__upper-card-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    max-width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .blog-section__down-card-wrapper {
+    display: flex;
+    width: 370px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .upper-card__text-wrapper {
+    padding: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .upper-card__span {
+    display: block;
+    font-weight: 400;
+    min-width: 280px;
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .upper-card__title {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    width: 350px;
+    max-width: 100%;
+    color: #000000;
+  }
+  .upper-card__date {
+    font-size: 16px;
+  }
+  .upper-card__down-span__item {
+    font-size: 16px;
+  }
+  .upper-card__down-span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .upper-card__down-span__item {
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .upper-card__image-wrapper {
+    max-width: 100%;
+    width: 370px;
+  }
+  .upper-card__image {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .down-card__image-wrapper {
+    max-width: 100%;
+    width: 370px;
+  }
+  .down-card__image {
+    width: 370px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .blog-section__upper-card-wrapper {
+    max-width: 100%;
+  }
+  .blog-section__title-wrapper {
+    font-family: "Lato", sans-serif;
+    width: 780px;
+    max-width: 100%;
+    display: flex;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-left: 0;
+    padding: 0px;
+  }
+  .blog-section__title {
+    width: 160px;
+    max-width: 100%;
+    display: block;
+    margin-left: 10px;
+  }
+  .blog-section__upper-card-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .blog-section__down-card-wrapper {
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .upper-card__text-wrapper {
+    padding: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .upper-card__span {
+    display: block;
+    font-weight: 400;
+    min-width: 280px;
+    font-size: 16px;
+    line-height: 166%;
+  }
+  .upper-card__title {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    width: 350px;
+    max-width: 100%;
+    color: #000000;
+  }
+  .upper-card__date {
+    font-size: 16px;
+  }
+  .upper-card__down-span__item {
+    font-size: 16px;
+  }
+  .upper-card__down-span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .upper-card__down-span__item {
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .upper-card__image-wrapper {
+    max-width: 100%;
+    width: 400px;
+  }
+  .upper-card__image {
+    width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .down-card__image-wrapper {
+    max-width: 100%;
+    width: 4000px;
+  }
+  .down-card__image {
+    width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=blog-section.css.map */

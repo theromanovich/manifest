@@ -1,0 +1,546 @@
+.page {
+  width: 100%;
+  background-color: 0;
+}
+.page-title {
+  display: flex;
+}
+.page-title__span {
+  display: block;
+  min-width: 160px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container {
+  display: flex;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.navigation-search-wrapper {
+  display: flex;
+}
+
+.navigation-menu {
+  display: flex;
+  list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  display: flex;
+  margin-right: 80px;
+}
+.navigation-menu__item {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0 20px;
+}
+.navigation-menu__item-search {
+  margin-top: 15px;
+}
+
+.home-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.home-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.home-link:hover::before {
+  transform: scale(1);
+}
+
+.about-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.about-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 16px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.about-link:hover::before {
+  transform: scale(1);
+}
+
+.works-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.works-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 18px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.works-link:hover::before {
+  transform: scale(1);
+}
+
+.blog-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.blog-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.blog-link:hover::before {
+  transform: scale(1);
+}
+
+.contacts-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.contacts-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 24px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.contacts-link:hover::before {
+  transform: scale(1);
+}
+
+.bg-section-wrapper__image {
+  display: block;
+  width: 100%;
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg-section-wrapper__span {
+  display: block;
+  position: absolute;
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  top: 0px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-top: 150px;
+  margin-left: 135px;
+  z-index: 20;
+}
+
+.blog-section__title-wrapper {
+  font-family: "Lato", sans-serif;
+  max-width: 1200px;
+  display: flex;
+  display: inline-block;
+  margin-left: 155px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.blog-section__upper-card-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+.blog-section__down-card-wrapper {
+  display: flex;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.upper-card__text-wrapper {
+  margin-right: 135px;
+  margin-left: 20px;
+}
+.upper-card__span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.upper-card__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.upper-card__date {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.upper-card__down-span__item {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+.upper-card__down-span {
+  margin-top: 20px;
+}
+.upper-card__down-span__item {
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-card__image-wrapper {
+  margin-left: 0px;
+}
+
+.latest-posts-bar {
+  margin: 50px auto 0px;
+  max-width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.latest-posts-bar__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.latest-posts-bar__button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.latest-posts-bar__image {
+  margin-left: 10px;
+}
+
+.latest-posts-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.latest-posts-cards__left-card {
+  max-width: 370px;
+  margin-right: 45px;
+}
+.latest-posts-cards__center-card {
+  max-width: 370px;
+  margin-right: 45px;
+}
+.latest-posts-cards__right-card {
+  max-width: 370px;
+}
+.latest-posts-cards__subtext {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.latest-posts-cards__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  padding-bottom: 25px;
+  color: #000000;
+}
+.latest-posts-cards__downtext {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.popular-cards-bar {
+  margin: 50px auto 0px;
+  max-width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-cards-bar__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.popular-cards-bar__button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.popular-cards-section__button {
+  display: flex;
+}
+.popular-cards-section__button-content {
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  margin: 50px auto 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  background: #565656;
+  color: #FFFFFF;
+  min-width: 180px;
+  min-height: 46px;
+}
+
+.popular-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.popular-cards__image {
+  margin-left: 10px;
+}
+.popular-cards__left-card {
+  max-width: 570px;
+  margin-right: 50px;
+}
+.popular-cards__right-card {
+  max-width: 570px;
+}
+
+.popular-card__left-card {
+  max-width: 570px;
+  margin-right: 50px;
+}
+.popular-card__right-card {
+  max-width: 570px;
+}
+
+.description-section__wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.description-section__wrapper-left {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  min-width: 470px;
+}
+.description-section__wrapper-right {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  min-width: 470px;
+  letter-spacing: 0.05em;
+  color: #565656;
+  margin-bottom: 50px;
+}
+
+.description__down-span {
+  margin-top: 20px;
+}
+
+.footer-wrapper {
+  background-color: #F4F4F4;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-container__text-title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.footer-container__text-number {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.footer-container__text-mail {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  margin-top: 15px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.footer-icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons__item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.copyright-wrapper {
+  display: flex;
+}
+.copyright-wrapper__span {
+  display: inline-block;
+  margin: 30px auto 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.twitter-div:hover {
+  background-color: #565656;
+}/*# sourceMappingURL=main.css.map */
+
+

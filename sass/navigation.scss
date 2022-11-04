@@ -1,0 +1,222 @@
+@import "variables";
+
+.page {
+    width: 100%;
+
+    &-title {
+        display: flex;
+    }
+    &-title__span {
+        display: block;
+        min-width: 160px;
+        font-family: $secondaryFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: black;
+    }
+}
+
+.container {
+    display: flex;
+    min-height: 100px;
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+    align-items: center;
+}
+.navigation-search-wrapper {
+    display: flex;
+}
+.navigation-menu {
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0px;
+    display: flex; 
+    margin-right: 80px;
+    &__item {
+        display: block;
+        font-family: $secondaryFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase; 
+        color: #000000;
+        padding: 0 20px;
+      
+    }
+  
+    &__item-search {
+        margin-top: 15px;
+    }
+
+}
+
+
+.burger {
+ 
+    cursor: pointer;
+    margin-left: auto;
+      margin-top: 8px;
+      margin-left: 10px;
+      display: none;
+   }
+   .burger div {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  @media (min-width:768px) {
+    .burger {
+        display: none;
+    }
+   
+  }
+  @media (max-width: 767px) {
+    .navigation {    
+        display: none;    
+        transition: all 0.3s ease-in;
+        width: 100%; 
+        
+    }  
+    .navigation__link {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .burger {
+      display: block;
+    }
+    .navigation {    
+        display: none; 
+        transition: all 0.3s ease-in;
+        
+    } 
+        .navigation.active {
+          display: block;
+          position: absolute;
+          transition-duration: 1s;
+          left: 0;
+          top: 75px;
+          width: 100%;
+          height: 100%;
+         
+          z-index: 1000;
+          background-color: rgb(255, 255, 255);
+          transition: all 0.3s ease-in;
+        }       
+        .navigation.active .navigation-menu {
+            display: block;
+            transition: all 0.3s ease-in;
+            width: 100%;
+            margin: 50px auto 0;
+            text-align: center;
+          
+     
+        }
+    
+        li {
+            padding: 0.5em 0;
+        margin: 10px auto;
+        
+        }
+
+.page {
+  
+    &-title__span {
+        display: block;
+        min-width: 120px;
+        font-family: $secondaryFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 17px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: black;
+    }
+}
+
+.container {
+  
+    width: 100%;
+    max-width: 375px;
+   
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-right: 0;
+}
+
+.navigation-menu {
+  
+    &__item-search {
+        
+        margin-right: 5px;
+    }
+
+}
+   
+  }
+
+  @media (min-width:768px) and (max-width:1280px) {
+    .burger {
+        display: block;
+      }
+      .navigation {    
+          display: none; 
+          transition: all 0.3s ease-in;
+
+          
+      } 
+          .navigation.active {
+            display: block;
+            position: absolute;
+            transition-duration: 1s;
+            left: 0;
+            top: 75px;
+            width: 100%;
+            height: 100%;
+           
+         
+            z-index: 1000;
+            background-color: rgb(255, 255, 255);
+            transition: all 0.3s ease-in;
+          }       
+          .navigation.active .navigation-menu {
+              display: block;
+              transition: all 0.3s ease-in;
+              width: 100%;
+              margin: 50px auto 0;
+              text-align: center;
+          
+       
+          }
+      
+          li {
+              padding: 0.5em 0;
+          margin: 10px auto;
+          
+          }
+          .container {
+  
+            max-width: 100%;
+            width: 760px;
+           
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 0;
+        }
+        .navigation-menu__item {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+  }
+
+  

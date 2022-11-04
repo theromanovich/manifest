@@ -1,0 +1,75 @@
+.footer-wrapper {
+  background-color: #F4F4F4;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-container__text-title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.footer-container__text-number {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.footer-container__text-mail {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  margin-top: 15px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.footer-icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons__item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.copyright-wrapper {
+  display: flex;
+}
+.copyright-wrapper__span {
+  display: inline-block;
+  margin: 30px auto 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.twitter-div:hover {
+  background-color: #565656;
+}/*# sourceMappingURL=footer.css.map */

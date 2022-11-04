@@ -1,0 +1,124 @@
+.home-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.home-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.home-link:hover::before {
+  transform: scale(1);
+}
+
+.about-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.about-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 16px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.about-link:hover::before {
+  transform: scale(1);
+}
+
+.works-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.works-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 18px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.works-link:hover::before {
+  transform: scale(1);
+}
+
+.blog-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.blog-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.blog-link:hover::before {
+  transform: scale(1);
+}
+
+.contacts-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.contacts-link::before {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  left: 24px;
+  bottom: -10px;
+  background-color: #000000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.contacts-link:hover::before {
+  transform: scale(1);
+}/*# sourceMappingURL=nav-decore.css.map */

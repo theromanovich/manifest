@@ -1,0 +1,30 @@
+.description-section__wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.description-section__wrapper-left {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  min-width: 470px;
+}
+.description-section__wrapper-right {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  min-width: 470px;
+  letter-spacing: 0.05em;
+  color: #565656;
+  margin-bottom: 50px;
+}
+
+.description__down-span {
+  margin-top: 20px;
+}/*# sourceMappingURL=description-section.css.map */

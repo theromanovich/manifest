@@ -1,0 +1,67 @@
+.popular-cards-bar {
+  margin: 50px auto 0px;
+  max-width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-cards-bar__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.popular-cards-bar__button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.popular-cards-section__button {
+  display: flex;
+}
+.popular-cards-section__button-content {
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  margin: 50px auto 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  background: #565656;
+  color: #FFFFFF;
+  min-width: 180px;
+  min-height: 46px;
+}
+
+.popular-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.popular-cards__image {
+  margin-left: 10px;
+}
+.popular-cards__left-card {
+  max-width: 570px;
+  margin-right: 50px;
+}
+.popular-cards__right-card {
+  max-width: 570px;
+}
+
+.popular-card__left-card {
+  max-width: 570px;
+  margin-right: 50px;
+}
+.popular-card__right-card {
+  max-width: 570px;
+}/*# sourceMappingURL=popular-section.css.map */

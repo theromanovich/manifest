@@ -1,0 +1,77 @@
+.latest-posts-bar {
+  margin: 50px auto 0px;
+  max-width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.latest-posts-bar__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.latest-posts-bar__button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.latest-posts-bar__image {
+  margin-left: 10px;
+}
+
+.latest-posts-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.latest-posts-cards__left-card {
+  max-width: 370px;
+  margin-right: 45px;
+}
+.latest-posts-cards__center-card {
+  max-width: 370px;
+  margin-right: 45px;
+}
+.latest-posts-cards__right-card {
+  max-width: 370px;
+}
+.latest-posts-cards__subtext {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+.latest-posts-cards__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  padding-bottom: 25px;
+  color: #000000;
+}
+.latest-posts-cards__downtext {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}/*# sourceMappingURL=latest-posts-section.css.map */

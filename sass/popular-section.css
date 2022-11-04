@@ -1,0 +1,188 @@
+.popular-cards-bar {
+  margin: 50px auto 0px;
+  max-width: 1200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-cards-bar__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.popular-cards-bar__button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.popular-cards-section__button {
+  display: flex;
+}
+.popular-cards-section__button-content {
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  margin: 50px auto 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  background: #565656;
+  color: #FFFFFF;
+  min-width: 180px;
+  min-height: 46px;
+}
+
+.popular-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.popular-cards__image {
+  margin-left: 10px;
+}
+.popular-cards__left-card {
+  max-width: 570px;
+  margin-right: 50px;
+}
+.popular-cards__right-card {
+  max-width: 570px;
+}
+
+.popular-card__left-card {
+  max-width: 570px;
+  margin-right: 50px;
+}
+.popular-card__right-card {
+  max-width: 570px;
+}
+
+@media (max-width: 767px) {
+  .popular-cards-bar {
+    margin: 70px auto 0px;
+    width: 370px;
+    max-width: 100%;
+    display: block;
+  }
+  .popular-cards-bar__title {
+    font-size: 28px;
+  }
+  .popular-cards-bar__button {
+    font-size: 20px;
+  }
+  .popular-cards {
+    flex-direction: column;
+  }
+  .popular-cards__left-image {
+    width: 100%;
+  }
+  .popular-cards__right-image {
+    max-width: 100%;
+  }
+  .popular-cards__image {
+    width: 50px;
+    margin: 0px;
+  }
+  .popular-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .popular-cards__image {
+    max-width: 100%;
+  }
+  .popular-cards__left-card {
+    max-width: 100%;
+    width: 370px;
+    margin-right: 0px;
+    margin: 40px auto 0px;
+  }
+  .popular-cards__right-card {
+    max-width: 100%;
+    width: 370px;
+    margin-right: 0px;
+    margin: 40px auto 0px;
+  }
+  .popular-card__left-card {
+    max-width: 100%;
+    width: 370px;
+    margin-right: 0px;
+    margin: 40px auto 0px;
+  }
+  .popular-card__right-card {
+    max-width: 100%;
+    width: 370px;
+    margin-right: 0px;
+    margin: 40px auto 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .popular-cards-bar {
+    margin: 50px auto 0px;
+    max-width: 100%;
+    width: 780px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .popular-cards-bar__title {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+  .popular-cards-bar__button {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #7B7B7B;
+  }
+  .popular-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .popular-cards__image {
+    margin-left: 10px;
+  }
+  .popular-cards__left-card {
+    max-width: 3800px;
+    margin-right: 10px;
+  }
+  .popular-cards__left-image {
+    max-width: 400px;
+  }
+  .popular-cards__right-card {
+    max-width: 400px;
+  }
+  .popular-card__left {
+    width: 400px;
+  }
+  .popular-card__right {
+    width: 400px;
+  }
+  .popular-card__left-card {
+    max-width: 400px;
+    width: 400px;
+    margin-right: 10px;
+  }
+  .popular-card__right-card {
+    width: 400px;
+  }
+}/*# sourceMappingURL=popular-section.css.map */
