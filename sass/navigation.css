@@ -54,6 +54,7 @@
 }
 .navigation-menu__item-search {
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .burger {

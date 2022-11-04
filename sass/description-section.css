@@ -1,6 +1,9 @@
 .description-section__wrapper {
   display: flex;
   margin-top: 50px;
+  width: 1200px;
+  max-width: 100%;
+  margin: 50px auto 0;
   justify-content: space-around;
 }
 .description-section__wrapper-left {

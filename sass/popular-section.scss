@@ -15,6 +15,7 @@
             line-height: 166%;   
             letter-spacing: 0.1em;
             color: #000000;
+            cursor: pointer;
         }
         &__button {
             font-family: $secondaryFont;
@@ -23,6 +24,7 @@
             line-height: 166%;
             letter-spacing: 0.1em;
             color: #7B7B7B;
+            cursor: pointer;
         }
     }
 
@@ -30,6 +32,7 @@
 
     &__button {
         display: flex;
+        
     }
     &__button-content {
         font-family: $secondaryFont;
@@ -45,6 +48,7 @@
         color: #FFFFFF;
         min-width: 180px;
         min-height: 46px;
+        cursor: pointer;
     }
  }
 

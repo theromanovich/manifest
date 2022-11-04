@@ -371,9 +371,11 @@
   line-height: 166%;
   letter-spacing: 0.1em;
   color: #7B7B7B;
+  cursor: pointer;
 }
 .latest-posts-bar__image {
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .latest-posts-cards {
@@ -606,6 +608,7 @@
   line-height: 166%;
   letter-spacing: 0.1em;
   color: #000000;
+  cursor: pointer;
 }
 .popular-cards-bar__button {
   font-family: "Lato", sans-serif;
@@ -614,6 +617,7 @@
   line-height: 166%;
   letter-spacing: 0.1em;
   color: #7B7B7B;
+  cursor: pointer;
 }
 
 .popular-cards-section__button {
@@ -633,6 +637,7 @@
   color: #FFFFFF;
   min-width: 180px;
   min-height: 46px;
+  cursor: pointer;
 }
 
 .popular-cards {
@@ -835,6 +840,7 @@
 }
 .navigation-menu__item-search {
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .burger {
@@ -1141,6 +1147,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   margin-right: 30px;
 }
 .footer-icons__item:hover {
@@ -1287,6 +1294,9 @@
 .description-section__wrapper {
   display: flex;
   margin-top: 50px;
+  width: 1200px;
+  max-width: 100%;
+  margin: 50px auto 0;
   justify-content: space-around;
 }
 .description-section__wrapper-left {
